@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+body , html{
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(image/pexels-joshimer-biñas-5463226.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+header{
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+
+audio{
+    display: block;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+img{
+    display: block;
+    width: 300px;
+    margin: auto;
+    border-radius: 30px;
+}
+
+main > p{
+    color: rgba(255, 255, 255, 0.575);
+    width: 300px;
+    text-align: justify;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+a{
+    color: white;
+    background-color: rgba(128, 0, 128, 0.705);
+    display:block;
+    padding: 40px;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: purple;
+}
+
+h2{
+    display: block;
+    margin: auto;
+    text-align: center;
+
+    margin-bottom: 50px;
+}
+
+footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+}
